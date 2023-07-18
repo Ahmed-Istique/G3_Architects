@@ -1,0 +1,314 @@
+/* shared style  */
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.text_light_grey {
+    color: var(--dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.common_title {
+    color: #131313;
+    font-size: 2.8rem;
+    margin-top: 130px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.head {
+    padding: 50px 240px;
+    background-color: rgba(255, 144, 14, 0.10);
+    /* border: 1px solid red; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+ul>li {
+    list-style: none;
+    /* it will effect the list iteams */
+    margin-right: 5rem;
+    color: var(--dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.head_title {
+    color: var(--dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 3rem;
+    /* footer font is 16px=1 rem, so head fonbt is 15px*3=45px=3rem */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* banner style starts */
+.banner_title {
+    color: (#131313);
+    text-align: center;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner_content {
+    /* border: 1px solid red; */
+    max-width: 800px;
+    /* max-width will maintain the entire width for the written part */
+    text-align: center;
+    /* to bring text in center */
+    margin: 0 auto;
+}
+
+.primary_btn {
+    padding: 21px 25px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+}
+
+.Explore {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner img {
+    /* border: 1px solid red; */
+    /* do not use image size */
+    /* width: 1440px;
+    height: 700px; */
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+/* banner part ends */
+/* main css starts */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    /* always keep these value as OK */
+}
+
+.team_container {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    margin-top: 85px;
+    /* padding: 0 301px; */
+
+}
+
+.team_image_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team_image {
+    width: 100%;
+}
+
+.team_text_container {
+    padding-left: 76px;
+}
+
+/* features css starts */
+
+/* .Features {
+    color: #FF900E;
+} */
+/* .features_content{
+    margin-right: 146px;
+} */
+
+.team_container_title {
+    color: var #727272;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+/* features css starts */
+.features {
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 130px;
+    /* gap: 140px; */
+}
+
+.features_content_cart {
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+}
+
+.features_content {
+    margin-right: 146px;
+}
+
+.features_content .common_title {
+
+    border-left: 7px solid #FF900E;
+    padding: 21px;
+}
+
+.features_image {
+
+    width: 500px;
+    height: 982px;
+}
+
+.ten_years_badge {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    /* height: 200px; */
+    padding: 46px 42px;
+    text-align: center;
+    position: relative;
+    /* to use image or text or button another image, relative work opositive , if we use for bottom, it will go top. */
+    bottom: 123px;
+    right: 92px;
+}
+
+.ten_years_badge_title {
+    color: #FFF;
+    font-size: 4.1rem;
+    font-style: normal;
+    margin: 0px;
+}
+
+.experience {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.6rem;
+    margin: 0px;
+}
+
+
+
+/* features css ends */
+
+/* facts section starts */
+
+
+.fcat_text {
+    margin-bottom: 100px;
+}
+
+.common_title {
+
+    color: #131313;
+    font-size: 2.8rem;
+    margin-top: 130px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.facts_cart_container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cart {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 45px 40.92px 60px 40.92px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+
+.cart_stat {
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.cart_des {
+    color: #727272;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5px 0;
+}
+
+/* facts section ends */
+/* Sponspors css starts */
+.sponsor_img_container {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-top: 50px;
+}
+
+.sponsor_text_container {
+    text-align: center;
+}
+
+.sponsor_img {
+    /* border: 1px solid red; */
+    width: 10.3rem;
+    height: 3.1rem;
+}
+
+/* Sponspors css ends */
+
+/* main css ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
