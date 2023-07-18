@@ -40,7 +40,7 @@ nav {
 ul>li {
     list-style: none;
     /* it will effect the list iteams */
-    margin-right: 5rem;
+    margin-right: 80px;
     color: var(--dark-02, #424242);
     text-align: center;
     font-family: Work Sans;
@@ -194,7 +194,7 @@ main {
 
 .features_image {
 
-    width: 500px;
+    width: 400px;
     height: 982px;
 }
 
@@ -302,20 +302,159 @@ main {
 
 /* main css ends */
 /* footer css starts */
-.footer {
+
+
+.footer{
     /* border: 1px solid red; */
     border-radius: 8px;
-    background: #FFF4E7;
-    max-width: 1440px;
-    margin: 0 auto;
-    margin-top: 130px;
-
-
-}
-.footer_text{
-    padding: 39px 410px;
     text-align: center;
-    color: var(--dark-03, #727272);
-    font-family: Work Sans;
-    font-size: 1rem;
+    margin-top: 130px;
+    padding: 39px 410px;
+    background-color:#FFF4E7 ;
 }
+
+/* responsive media starts here */
+/* for small devices */
+
+
+/* responsive media starts here */
+/* for small devices */
+
+/* responsive media starts here */
+/* for small devices */
+
+
+@media screen and (max-width: 576px) {
+
+    .head,
+    main {
+        padding: 20px;
+    }
+
+
+    /* now where we uses display: flex; we need to work on it */
+    /* small device: pixel 5 */
+    nav,
+    .team_container,
+    .facts_cart_container,
+    .sponsor_img_container,
+    .features {
+        flex-direction: column;
+    }
+
+
+    /* .features {
+    flex-direction: column;
+} */
+
+
+    ul>li {
+        margin-right: 18px;
+    }
+
+
+    .team_text_container,
+    .Sponspors {
+        padding: 20px;
+    }
+
+
+    .team_image_container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        padding: 0 20px;
+    }
+
+
+    .facts {
+        padding: 20px;
+    }
+
+
+    .cart {
+        margin: 15px 0;
+    }
+
+
+    /* Sponspors media starts */
+    .sponsor_img {
+        width: 165px;
+        height: 50px;
+
+
+
+
+    }
+
+
+    .sponsor_img_container {
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+.footer{
+    border-radius: 8px;
+    margin-top: 90px;
+    padding: 39px 1px;
+}
+    
+
+}
+
+
+/* medium devices: pixel 5 (rotate)*/
+@media screen and ((min-width: 576px) and (max-width: 992px)) {
+
+
+    nav,
+    .team_container,
+    .sponsor_img_container,
+    .features {
+        flex-direction: column;
+    }
+
+    .features_image {
+        width: 100%;
+    }
+
+    .head {
+        padding: 40px;
+    }
+
+
+    ul>li {
+        margin-right: 80px;
+    }
+
+
+    .team_image_container,
+    .team_text_container,
+    .facts
+    {
+    padding: 0 40px；}
+
+
+   .Sponspors {
+    padding: 0px 40px;
+   }
+
+
+
+
+  .facts_cart_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; }
+
+
+   .sponsor_img_container {
+    gap: 40px;
+    justify-content: center;
+    align-items: center;}
+}
+
+
+/* responsive media ends here */
